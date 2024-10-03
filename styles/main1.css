@@ -7,11 +7,13 @@ body {
     width: 1000px;
     background-color: white;
     margin: 15px auto;
-    padding: 15px 1.5;
+    padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: ;
+    background-image: url('images/shsu.png');
+    background-repeat: repeat-y;
+    background-attachment:fixed;
 }
 a:focus, a:hover {
     font-style: italic;
@@ -37,18 +39,26 @@ main {
     clear: left;
 }
 main h3 {
-    margin-top: 1.5em
-    border:5px 100%;
+    margin: 3em 2em 1.5em 2em;
+    border:5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em auto;
-    font-size: 105%;
-
 }
-#list {
-    line-height: 1.5em;
+nav{
+    margin: 1.5em;
+    border:5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 }
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
+.contact {
+    margin: 1.5em 2em 0em 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+img {
+    margin-left: 2em;
 }
