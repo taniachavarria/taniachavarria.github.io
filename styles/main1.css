@@ -13,7 +13,7 @@ body {
     box-shadow: 5px 5px 0 0;
     background-image: url('images/shsu.png');
     background-repeat: repeat-y;
-    background-position: right-top;
+    background-position: right top;
 }
 a:focus, a:hover {
     font-style: italic;
