@@ -45,6 +45,7 @@ article {
     margin-left: 2em;
     padding: 1em;
     border: 1px solid #ccc;
+    border-radius: 10px;
     background-color: #fff;
 }
 article h3 {
