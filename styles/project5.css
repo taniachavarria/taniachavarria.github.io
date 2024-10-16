@@ -69,13 +69,13 @@ footer {
     clear: both;
     border-top: 2px solid maroon;
 }
-.fixed {
-    width: auto;
-    position: fixed; /* Make it not scroll with the page */
-    bottom: 10px; /* Positioning */
-    left: 10px; /* Adjust position as needed */
-    background-color: white; /* Optional: to ensure visibility */
-    padding: 10px; /* Optional: add padding */
-    border: 1px solid black; /* Optional: to make it stand out */
-    border-radius: 5px;
+p.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ccffcc;
+    padding: 10px;
+    border: 2px solid green;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    font-size: 1.1em;
 }
