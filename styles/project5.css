@@ -54,6 +54,8 @@ article {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color:white;
+    color: black;
 }
 article h3 {
         column-span: all;
