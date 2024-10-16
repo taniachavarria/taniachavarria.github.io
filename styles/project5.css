@@ -10,14 +10,23 @@ body {
 a {
     text-decoration: none;
     color:red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
+header {
+    background-color:maroon;
+    color:white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 h1 {
     color: maroon;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 h3, h4 {
     color: black;
