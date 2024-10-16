@@ -1,27 +1,24 @@
 html {
-    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to left, #fff, #ffebc6);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 90%
-    background-color: white;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
+    margin: 0px auto;
 }
+a {
+    text-decoration: none;
+    color:red;
+}
+
 a:focus, a:hover {
-    font-style: italic;
-    color: orangered;
     border: 3px blue;
     border-style: dotted solid;
 }
-header h1 {
-    font-size: 175%;
+    h1 {
     color: maroon; 
-    text-indent: 30px;
+    font-weight: bold;
 }
 header h2 {
     font-size:130%;
@@ -30,6 +27,9 @@ header h2 {
 }
 header img {
     float: left;
+    margin-right: 1em;
+    border-radius: 50em;
+    width: 100px;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
@@ -40,8 +40,9 @@ article {
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
-    column-gap: 3em;
-    margin-left: 3em;
+    column-gap: 2em;
+    border: 1px solid #ccc;
+    background-color: #fff;
 }
 article h3 {
         column-span: all;
@@ -50,6 +51,8 @@ article img {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
+    width: 150px;
+    height:auto;
 }
 article p:first-letter {
     font-size: 3em;
@@ -59,10 +62,25 @@ article p:first-letter {
 }
 aside { 
     width: 20%;
-    float:right;
+    float: right;
     background-color: #ffebc6;
+    padding: 1em;
+    border-left: 2px solid maroon;
+    margin-top: 1em;
 }
 footer {
     clear: both;
-    border-top: 2px solid maroon;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+}
+p.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color:#ccffcc;
+    padding: 10px;
+    border: 2px solid green;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    font-size: 1.1em;
 }
