@@ -87,6 +87,7 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 0.9em;
+    border-top:2px solid maroon;
 }
 p.fixed {
     position: fixed;
