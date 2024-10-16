@@ -6,13 +6,13 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%
+    width: 90%;
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
+    box-shadow: 5px 5px 15px rgba (0,0,0,0.2);
 }
 a:focus, a:hover {
     font-style: italic;
@@ -21,12 +21,12 @@ a:focus, a:hover {
     border-style: dotted solid;
 }
 header h1 {
-    font-size: 175%;
-    color: maroon; 
+    font-size: 2em;
+    color:maroon; 
     text-indent: 30px;
 }
 header h2 {
-    font-size:130%;
+    font-size:1.5em;
     color:#800000;
     text-indent: 30px;
 }
@@ -42,8 +42,8 @@ article {
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
-    column-gap: 3em;
-    margin-left: 3em;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 article h3 {
         column-span: all;
@@ -63,8 +63,19 @@ aside {
     width: 20%;
     float:right;
     background-color: #ffebc6;
+    padding: 1em;
 }
 footer {
     clear: both;
     border-top: 2px solid maroon;
+}
+.fixed {
+    width: auto;
+    position: fixed; /* Make it not scroll with the page */
+    bottom: 10px; /* Positioning */
+    left: 10px; /* Adjust position as needed */
+    background-color: white; /* Optional: to ensure visibility */
+    padding: 10px; /* Optional: add padding */
+    border: 1px solid black; /* Optional: to make it stand out */
+    border-radius: 5px;
 }
