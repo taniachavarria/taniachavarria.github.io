@@ -55,8 +55,6 @@ article {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
 }
 article h3 {
         column-span: all;
@@ -85,7 +83,6 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 0.9em;
-    border-top:2px solid maroon;
 }
 p.fixed {
     position: fixed;
