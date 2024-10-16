@@ -8,22 +8,25 @@ body {
 }
 a {
     text-decoration: none;
-    color:red;
+    color: red;
 }
-
 a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 } 
 header {
-    color:maroon;
+    background-color: maroon; /* Add background color to the header */
+    color: white; /* Header text color */
     padding: 1em;
     border-radius: 10px;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.header-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
 }
 h1 {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 1em; /* Add space between the image and the title */
 }
 h3, h4 {
     color: black;
@@ -36,9 +39,9 @@ h3, h4 {
     width: 100px;
 }
 hr {
-    border:0;
+    border: 0;
     height: 1px;
-    background:maroon;
+    background: maroon;
     margin: 1em 0;
 }
 article {
@@ -52,24 +55,24 @@ article {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color:white;
+    background-color: white;
     color: black;
 }
 article h3 {
-        column-span: all;
+    column-span: all;
 }
 article img {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
     width: 150px;
-    height:auto;
+    height: auto;
 }
 article p:first-letter {
     font-size: 3em;
-    font-weight:bold;
+    font-weight: bold;
     font-style: italic;
-    color: royalblue;
+    color: lightgreen;
 }
 aside { 
     width: 20%;
@@ -82,12 +85,13 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 0.9em;
+    border-top: 2px solid maroon; /* Add border on top of footer */
 }
 p.fixed {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background-color:#ccffcc;
+    background-color: #ccffcc;
     padding: 10px;
     border: 2px solid green;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
