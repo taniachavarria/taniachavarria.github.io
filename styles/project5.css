@@ -91,7 +91,6 @@ p.fixed {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    width: auto;
     background-color: #ccffcc;
     padding: 10px;
     border: 2px solid green;
