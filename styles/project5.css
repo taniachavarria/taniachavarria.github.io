@@ -16,24 +16,20 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
-    h1 {
-    color: maroon; 
+h1 {
+    color: maroon;
+}
+h3, h4 {
+    color: maroon;
     font-weight: bold;
 }
-header h2 {
-    font-size:130%;
-    color:#800000;
-    text-indent: 30px;
-}
-header img {
+.balboa-img {
     float: left;
     margin-right: 1em;
     border-radius: 50em;
     width: 100px;
 }
-.shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
-}
+
 article {
     clear: left;
     width: 70%;
