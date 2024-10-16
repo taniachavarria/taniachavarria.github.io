@@ -16,7 +16,7 @@ a {
 a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
-}
+} 
 header {
     background-color:maroon;
     color:white;
