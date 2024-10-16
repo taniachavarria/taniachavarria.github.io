@@ -15,18 +15,18 @@ a:focus, a:hover {
     border-style: dotted solid;
 } 
 header {
-    background-color: maroon; /* Add background color to the header */
-    color: white; /* Header text color */
+    background-color: maroon; 
+    color: white; 
     padding: 1em;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .header-content {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Align items vertically */
+    display: flex; 
+    align-items: center; 
 }
 h1 {
-    margin-left: 1em; /* Add space between the image and the title */
+    margin-left: 1em; 
 }
 h3, h4 {
     color: black;
@@ -85,7 +85,7 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 0.9em;
-    border-top: 2px solid maroon; /* Add border on top of footer */
+    border-top: 2px solid maroon; 
 }
 p.fixed {
     position: fixed;
