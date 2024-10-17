@@ -18,6 +18,10 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
+header {
+    border-bottom: 2px solid maroon; /* Add a border to the bottom of the header */
+    padding-bottom: 1em; /* Ensure there's space around the content */
+}
 header h1 {
     font-size: 2em;
     color:maroon; 
@@ -30,6 +34,9 @@ header h2 {
 }
 header img {
     float: left;
+    margin-right: 15px; /* Adjust space between the image and the text */
+    height: 100px; /* Adjust height for better alignment */
+    width: auto; /* Maintain aspect ratio */
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
