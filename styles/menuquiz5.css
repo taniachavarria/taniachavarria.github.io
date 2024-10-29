@@ -71,7 +71,8 @@ aside ul {
 .return-top {
     text-align: center;      
     margin-top: 20px;        
-    font-size: 1em;          
+    font-size: 1em;  
+    padding-left: 40px;        
 }
 
 .return-top a {
