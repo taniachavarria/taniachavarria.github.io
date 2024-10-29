@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 /* Style for the article */
 article {
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     background-color: white;
 }
@@ -71,7 +71,7 @@ aside ul {
 .return-top {      
     margin-top: 20px;        
     font-size: 1em;  
-    padding-left: 40px;        
+    padding-left: 30px;        
 }
 
 .return-top a {
