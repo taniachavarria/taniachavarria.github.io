@@ -43,32 +43,31 @@ nav ul li a:hover {
 article {
     padding: 20px;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 css menu
 
 
 
-/* Style for the aside section */
 aside {
     padding: 20px;
     background-color: #e9ecef;
     margin: 20px;
 }
 
-/* Ordered list in the aside */
+
 aside ol {
     list-style-type: upper-roman;
     padding-left: 20px;
 }
 
-/* Unordered list style in case you want to include one */
+
 aside ul {
     list-style-type: square;
 }
 
-/* Ensure that the navigation bar is responsive */
+
 @media (max-width: 600px) {
     nav ul li {
         float: none;
