@@ -14,7 +14,7 @@ border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 
-/* Style the navigation menu */
+/*navigation menu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -40,7 +40,7 @@ nav ul li a:hover {
     background-color: #111;
 }
 
-/* Style for the article */
+/*article */
 article {
     padding: 10px;
     margin: 20px;
