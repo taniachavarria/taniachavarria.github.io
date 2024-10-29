@@ -21,6 +21,7 @@ nav ul {
     margin: 0;
     background-color: white;
     overflow: hidden;
+    padding-left: 60px;
 }
 
 nav ul li {
