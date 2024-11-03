@@ -2,7 +2,7 @@ css
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url('https://via.placeholder.com/300'); /* Replace with your background */
+    background-image: url('/images/shsu.png'); /* Replace with your background */
     background-repeat: repeat-y;
 }
 
