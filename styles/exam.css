@@ -1,0 +1,64 @@
+css
+body {
+    width: 95%;
+    margin: 15px auto;
+    background-image: url('https://via.placeholder.com/300'); /* Replace with your background */
+    background-repeat: repeat-y;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+article {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    width: 20%;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+aside ul {
+    list-style-type: disc; /* or any other style */
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 15px 0;
+}
