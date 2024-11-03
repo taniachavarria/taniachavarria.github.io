@@ -1,4 +1,4 @@
-table.first{
+table.first th{
     border-collapse:separate;
     border: 2px solid black;
 }
@@ -7,5 +7,5 @@ table.first th, table.first td{
 }
 table.first tr:nth:child(odd){
     background-color:lightblue;
-    
+
 }
