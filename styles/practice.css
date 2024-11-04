@@ -8,39 +8,63 @@
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url('/images/shsu.png');
+    background-image: url('background.jpg');
     background-repeat: repeat-y;
     background-attachment: fixed;
     border: 1px solid #000;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    border-bottom: 1px solid #000;
+    background-color: #0056b3;
     padding: 10px 0;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+nav ul li a.active {
+    background-color: #ffc107;
+    color: #000;
+}
+
+h1 {
+    color: #0056b3;
+    padding: 10px 0;
 }
 
 aside {
     width: 20%;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 80px;
+    right: 15px;
+    background-color: #cce7ff;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+aside ul {
     list-style-type: none;
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-left: 1px solid #000;
 }
 
 aside ul li {
-    list-style-type: none;
     margin: 5px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+aside a:hover {
+    text-decoration: underline;
 }
 
 article {
@@ -53,18 +77,22 @@ article {
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
+    float: left;
+    margin-right: 8px;
 }
 
 img {
     float: left;
-    margin-right: 10px;
-    width: 150px;
+    margin: 0 10px 10px 0;
+    width: 120px;
+    height: auto;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #000;
+    margin-top: 20px;
 }
 
 hr {
