@@ -11,11 +11,27 @@ nav ul {
     list-style-type: none;
     padding: 0;
     background-color: #f4f4f4;
+    nav_menu ul { list-style-type: none; }
 }
 
 nav ul li {
     display: inline;
     margin-right: 15px;
+    nav_menu ul { list-style-type: none; }
+    #nav_menu ul li { float: left; }
+    #nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0; /* padding above and below a
+    elements */
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white; }
+    #nav_menu ul li a.lastitem { border-right: none; }
+    #nav_menu ul li a.current { color: yellow; }
 }
 
 article {
