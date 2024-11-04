@@ -8,7 +8,7 @@
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url('images/shsu.png');
+    background-image: url('/images/shsu.png');
     background-repeat: repeat-y;
     background-attachment: fixed;
     border: 1px solid #000;
