@@ -45,7 +45,10 @@ aside {
     display: inline-block;
     position: fixed;
     right: 0;
-    top: 0;
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 1em;
 }
 
 aside ul {
