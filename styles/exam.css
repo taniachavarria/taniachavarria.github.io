@@ -2,8 +2,9 @@ css
 body {
     width: 95%;
     margin: 15px auto;
-    background-image: url('/images/shsu.png'); /* Replace with your background */
+    background-image: url('/images/shsu.png');
     background-repeat: repeat-y;
+    background-position: right top;
 }
 
 nav ul {
