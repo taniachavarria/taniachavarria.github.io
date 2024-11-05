@@ -54,6 +54,11 @@ body {
     box-shadow: 5px 5px 15px rgba (0,0,0,0.2);
 }
 
+header {
+    border-bottom: 3px solid darkblue; /* Add a border to the bottom of the header */
+    padding-bottom: 3em; /* Ensure there's space around the content */
+}
+
 article {
     width: 75%;
     display: inline-block;
