@@ -73,9 +73,10 @@ article {
     margin-left: 2em;
 }
 article p:first-letter {
-    font-size: 3em;
+    font-size: 2em;
     font-weight:bold;
     color: black;
+    font-style: italic;
 }
 aside {
     width: 20%;
