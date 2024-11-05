@@ -43,7 +43,7 @@ header img {
 }
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
