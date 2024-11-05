@@ -102,6 +102,32 @@ aside ul {
     list-style-type: disc; /* or any other style */
 }
 
+aside ol, aside ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+aside a {
+    color: blue;
+    text-decoration: underline;
+}
+
+aside ol > li {
+    list-style-type: upper-roman;
+}
+
+aside ul > li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+aside ul ul > li {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+
+
 footer {
     clear: both;
     text-align: center;
