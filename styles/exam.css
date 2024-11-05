@@ -57,7 +57,7 @@ body {
 
 header {
     border-bottom: 3px solid darkblue; /* Add a border to the bottom of the header */
-    padding-bottom: 3em; /* Ensure there's space around the content */
+    padding-bottom: 1em; /* Ensure there's space around the content */
 }
 
 article {
