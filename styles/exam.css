@@ -121,9 +121,8 @@ aside ul > li {
     margin-left: 20px;
 }
 
-aside ul ul > li {
+aside ol > li > ul > li > ul {
     list-style-type: lower-alpha;
-    margin-left: 20px;
 }
 
 
