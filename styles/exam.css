@@ -1,38 +1,45 @@
-css
-body {
-    width: 95%;
-    margin: 15px auto;
-    background-image: url('/images/shsu.png');
-    background-repeat: repeat-y;
-    background-position: right top;
-}
+nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+text-align: center;
+display: block;
+width: 175px;
+padding: 1em 0; /* padding above and below a
+elements */
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.current { color: yellow; }
 
+/*navigation menu */
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #f4f4f4;
-    nav_menu ul { list-style-type: none; }
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 40px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
-    nav_menu ul { list-style-type: none; }
-    #nav_menu ul li { float: left; }
-    #nav_menu ul li a {
-    text-align: center;
-    display: block;
-    width: 175px;
-    padding: 1em 0; /* padding above and below a
-    elements */
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    border-right: 2px solid white; }
-    #nav_menu ul li a.lastitem { border-right: none; }
-    #nav_menu ul li a.current { color: yellow; }
+    float: left;
 }
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
 
 article {
     width: 75%;
