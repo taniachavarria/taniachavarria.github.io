@@ -39,7 +39,20 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
-
+html {
+    background: linear-gradient(to left, white 0%, lightblue 100%);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba (0,0,0,0.2);
+}
 
 article {
     width: 75%;
@@ -63,7 +76,7 @@ aside {
     float: right;
     background-color: lightblue;
     padding: 1em;
-    border: darkblue 1em;
+    border: 2px solid green;
 }
 
 aside ul {

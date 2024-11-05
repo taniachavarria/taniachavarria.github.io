@@ -67,7 +67,8 @@ article p:first-letter {
 aside { 
     width: 20%;
     float:right;
-    border: 2px solid darkblue;
+    background-color: #ffebc6;
+    padding: 1em;
 }
 footer {
     clear: both;
