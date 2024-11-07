@@ -51,7 +51,6 @@ body {
     padding: 10px 1.5em;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba (0,0,0,0.2);
     background-image: url('/images/shsu.png');
     background-repeat: repeat-y;
     background-position: right top;
@@ -59,8 +58,8 @@ body {
 
 
 header {
-    border-bottom: 3px solid darkblue; /* Add a border to the bottom of the header */
-    padding-bottom: 1em; /* Ensure there's space around the content */
+    border-bottom: 3px solid darkblue; 
+    padding-bottom: 1em; 
 }
 
 article {
@@ -99,7 +98,7 @@ aside ol {
     list-style-type: upper-roman;
 }
 aside ul {
-    list-style-type: disc; /* or any other style */
+    list-style-type: disc; 
 }
 
 aside ol, aside ul {
