@@ -40,15 +40,37 @@ table.second th, table.second td {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
-
-table.third th {
-    background-color: lightgray;
+table.third {
+    border-collapse: collapse;
     border: 2px solid orangered;
-    padding: 0.5em;
+    width: 100%;
 }
 
-table.third td {
-    border: 1px solid orangered;
-    padding: 0.5em;
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+}
+
+table.third thead tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+table.third th, table.third td {
+    padding: 0.7em;
     vertical-align: top;
+    border: 2px solid orangered;
+}
+
+table.third tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Media Query */
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }
 }
