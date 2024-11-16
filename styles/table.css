@@ -68,7 +68,6 @@ table.third tbody tr:nth-child(odd) {
     background-color: white;
 }
 
-/* Media Query */
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
