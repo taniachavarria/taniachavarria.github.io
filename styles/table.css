@@ -8,7 +8,7 @@ html, body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-/* TABLE 1 Styling */
+
 table.first {
     border-collapse: separate;
     border: 2px solid black;
@@ -22,7 +22,7 @@ table.first tr:nth-child(odd) {
     background-color: lightblue;
 }
 
-/* TABLE 2 Styling */
+
 table.second {
     border-collapse: collapse;
     border: 2px solid purple;
@@ -49,24 +49,24 @@ table.third {
 }
 
 table.third thead tr:first-child {
-    background-color: lightgreen; /* Green background for the table title */
-    border-top: 2px solid orangered; /* Top border */
+    background-color: lightgreen; 
+    border-top: 2px solid orangered; 
     border-bottom:2px solid orangered;
 }
 
 table.third thead tr:last-child {
-    background-color: lightgreen; /* Green background for the header row */
-    border-bottom: 2px solid orangered; /* Bottom border */
+    background-color: lightgreen; 
+    border-bottom: 2px solid orangered; 
 }
 
 table.third th, table.third td {
     padding: 0.7em;
-    vertical-align: top; /* Ensures alignment to the top */
+    vertical-align: top; 
 
 }
 
 table.third tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 /* Media Query */
