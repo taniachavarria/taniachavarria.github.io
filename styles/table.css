@@ -42,8 +42,7 @@ table.second th, table.second td {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
-
-/* TABLE 3 Styling */
+/* Third Table */
 table.third {
     border-collapse: collapse;
     border: 2px solid orangered;
@@ -60,11 +59,11 @@ table.third thead tr:last-child {
 
 table.third th, table.third td {
     padding: 0.7em;
-    vertical-align: top;
+    vertical-align: top; /* Ensures alignment to the top */
     border: 2px solid orangered;
 }
 
-table.third tr:nth-child(odd) {
+table.third tbody tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
