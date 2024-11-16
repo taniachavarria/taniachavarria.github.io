@@ -41,13 +41,6 @@ table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
 
-table.third {
-    border-collapse: collapse;
-    border: 2px solid orangered;
-    width: 100%;
-    text-align: left;
-}
-
 table.third th {
     background-color: lightgray;
     border: 2px solid orangered;
@@ -58,25 +51,4 @@ table.third td {
     border: 1px solid orangered;
     padding: 0.5em;
     vertical-align: top;
-}
-
-table.third thead tr:first-child {
-    border-top: 2px solid orangered;
-}
-
-table.third thead tr:last-child {
-    border-bottom: 2px solid orangered;
-}
-
-/*-----------------------------------------------------------*/
-/* Media Query */
-@media only screen and (max-width: 425px) {
-    th, td {
-        display: block;
-    }
-
-    thead, td.number {
-        display: none;
-        padding: 0;
-    }
 }
