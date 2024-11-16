@@ -50,6 +50,7 @@ table.third {
 table.third thead tr:first-child {
     background-color: lightgreen; /* Green background for the table title */
     border-top: 2px solid orangered; /* Top border */
+    border-bottom:2px solid orangered;
 }
 
 table.third thead tr:last-child {
@@ -60,8 +61,7 @@ table.third thead tr:last-child {
 table.third th, table.third td {
     padding: 0.7em;
     vertical-align: top; /* Ensures alignment to the top */
-    border-left: 2px solid orangered; /* Left border only */
-    border-right: 2px solid orangered; /* Right border only */
+
 }
 
 table.third tbody tr:nth-child(odd) {
