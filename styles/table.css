@@ -42,25 +42,26 @@ table.second th, table.second td {
 table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
-/* Third Table */
 table.third {
     border-collapse: collapse;
-    border: 2px solid orangered;
     width: 100%;
 }
 
 table.third thead tr:first-child {
-    border-top: 2px solid orangered;
+    background-color: lightgreen; /* Green background for the table title */
+    border-top: 2px solid orangered; /* Top border */
 }
 
 table.third thead tr:last-child {
-    border-bottom: 2px solid orangered;
+    background-color: lightgreen; /* Green background for the header row */
+    border-bottom: 2px solid orangered; /* Bottom border */
 }
 
 table.third th, table.third td {
     padding: 0.7em;
     vertical-align: top; /* Ensures alignment to the top */
-    border: 2px solid orangered;
+    border-left: 2px solid orangered; /* Left border only */
+    border-right: 2px solid orangered; /* Right border only */
 }
 
 table.third tbody tr:nth-child(odd) {
