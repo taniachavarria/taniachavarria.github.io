@@ -40,10 +40,5 @@ textarea {
 }
 #buttons input {
     width: 10em;
-    text-align: center; 
-}
-
-#buttons input {
-    width: 10em;
-    margin: 0.5em; 
+    text-align: center;
 }
